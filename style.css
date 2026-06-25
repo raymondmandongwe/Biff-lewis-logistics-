@@ -258,7 +258,7 @@ h2.section-title--white { color: var(--white); }
 
 /* ── PAGE HERO BANNER (inner pages) ───────────────────────── */
 .page-hero {
-  background: var(--charcoal);
+  background: #efefef;
   padding: 60px 0 52px;
   position: relative;
   overflow: hidden;
@@ -270,7 +270,7 @@ h2.section-title--white { color: var(--white); }
     repeating-linear-gradient(
       -45deg,
       transparent, transparent 30px,
-      rgba(139,26,26,.07) 30px, rgba(139,26,26,.07) 31px
+      rgba(139,26,26,.06) 30px, rgba(139,26,26,.06) 31px
     );
 }
 .page-hero .container { position: relative; z-index: 1; }
@@ -278,12 +278,12 @@ h2.section-title--white { color: var(--white); }
   font-family: 'Montserrat', sans-serif;
   font-size: clamp(26px, 5vw, 42px);
   font-weight: 800;
-  color: var(--white);
+  color: var(--charcoal);
   margin-bottom: 10px;
 }
 .page-hero p {
   font-size: 16px;
-  color: rgba(255,255,255,.65);
+  color: var(--mid);
   max-width: 560px;
 }
 .breadcrumb {
@@ -291,13 +291,13 @@ h2.section-title--white { color: var(--white); }
   align-items: center;
   gap: 8px;
   font-size: 13px;
-  color: rgba(255,255,255,.45);
+  color: var(--grey);
   margin-bottom: 16px;
 }
-.breadcrumb a { color: rgba(255,255,255,.55); }
-.breadcrumb a:hover { color: rgba(255,255,255,.9); }
+.breadcrumb a { color: var(--mid); }
+.breadcrumb a:hover { color: var(--charcoal); }
 .breadcrumb-sep { font-size: 10px; }
-.breadcrumb span { color: var(--white); }
+.breadcrumb span { color: var(--charcoal); }
 
 /* Red accent bar below page hero */
 .hero-accent-bar { height: 4px; background: var(--red); }
